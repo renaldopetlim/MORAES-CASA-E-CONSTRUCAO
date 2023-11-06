@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    border: 0;
+    outline: none;
     box-sizing: border-box;
 }
 /* SEÇÃO INICIAL */
@@ -12,7 +14,7 @@
     align-items: center;
     padding: 4px;
 }
-    #topo .topic1{
+    .topic1{
         font-family: "Fabriga";
         font-weight: 700;
         font-size: 14px;
@@ -21,88 +23,23 @@
         width: 80%;
         display: flex;
 }
-body section button{
-    font-family: 'Rubik', sans-serif;
-    background-color: #25D366;
-    color: white;
-    width: 200px;
-    height: 30px;
-    border: 0px;
-    border-radius: 10px;
-    font-weight: bolder;
-    cursor: pointer;
-    margin-right: 1%;
+    .topic2{
+        font-family: 'Rubik', sans-serif;
+        background-color: #25D366;
+        color: white;
+        width: 200px;
+        height: 30px;
+        border: 0px;
+        border-radius: 10px;
+        font-weight: bolder;
+        cursor: pointer;
+        margin-right: 1%;
 }
-body section button:hover{
-    background-color: #5ad888;
-    transform: translateY(-1px);
-    transition: 1s;
-    box-shadow: 0px 15px 20px #c0c0c0;
-}
+        .topic2:hover{
+            background-color: #5ad888;
+            transform: translateY(-1px);
+            transition: 1s;
+            box-shadow: 0px 15px 20px #c0c0c0;
+        }
 
-/* CABEÇALHO */
-    /* CAIXA de BUSCA */
-.box-busca{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    background-color: #ffffff;
-}
-.search-box input::placeholder{
-    opacity: 0.5;
-    font-size: 18px;
-}
-.search-box form{
-    background-color: #4c4c4c;
-    display: flex;
-    border-radius: 50px;
-    height: 45px;
-}
-.search-box:hover .search-box-input{
-    padding-left: 2em;
-    padding-right: 1em;
-    width: 300px;
-}
-.search-box-input{
-    outline: 0;
-    font-size: 1.2em;
-    color: #fff;
-    width: 0;
-    padding: 0;
-    border: none;
-    background: none;
-    transition: .45s;
-}
-.search-box-button{
-    display: flex;
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    border: none;
-    cursor: pointer;
-    transition: 3s;
-}
-.search-box-button:active{
-    transform: scale(.85);
-}
-.search-box-icon{
-    margin: auto;
-    color: #fff;
-}
-
-
-
-/* BANNERS */
-a img{
-    width: 100%;
-}
-
-
-@media screen and (min-width: 400px){
-    .search-box:hover .search-box-input {
-        width: 360px;
-    }
-}
+/* LOGO + PESQUISA */
