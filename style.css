@@ -71,11 +71,22 @@
                     text-decoration: none;
                 }
 
-/* SLIDES */
+/* SLIDES e LOCATION */
+#banners{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+#location{
+    font-family: 'Rubik', sans-serif;
+}
+
 #slider{
     margin: 0 auto;
     width: 850px;
-    height: 600px;
+    height: 385px;
     overflow: hidden;
 }
     .slides{
@@ -94,7 +105,8 @@
         .slide img{
             width: 850px;
         }
-    .manual-navigation{
+
+        .manual-navigation{
         position: absolute;
         width: 850px;
         margin-top: -45px;
