@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RP Casa e Construção</title>
-    <link rel="icon" type="image/png" href="img/favicon_transparent_32x32.png">
+    <title>Moraes Casa e Construção</title>
+    <link rel="icon" type="image/png" href="img/moraes-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
@@ -13,6 +13,7 @@
     <script src="https://kit.fontawesome.com/24877bf13c.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- SEÇÃO INICIAL -->
     <section id="topo">
         <div class="topic1">
             <p>
@@ -25,7 +26,7 @@
             </p>
             <p>
                 <i class="fa-solid fa-circle-check"></i>
-                SEGURANÇA E PRATICIDADE NA SUA COMPRA
+                AS MELHORES MARCAS A SUA DISPOSIÇÃO
             </p>
         </div>
         <button class="topic2">
@@ -33,5 +34,58 @@
         </button>
     </section>
     
+    <!-- LOGO + MENUS -->
+    <div id="container">
+        <div class="logo">
+            <img src="img/moraes-casa-e-construcao.png" width="320px" alt="LOGO">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="">Nossos Parceiros</a></li>
+                <li><a href="">Quem Somos</a></li>
+                <li><a href="">Orçamento</a></li>
+                <li>
+                    <a href="https://www.instagram.com/moraescasaeconstrucao/"><img src="img/insta.ico" width="25px" alt="insta-logo"></a>
+                </li>
+                <li>
+                    <a href="https://wa.me/5591992427348"><img src="img/wpp.png" width="25px" alt="whatsapp"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- SLIDES -->
+    <div id="slider">
+        <div class="slides">
+                <!-- Buttons -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+                <!-- End Buttons -->
+
+                <!-- Slides -->
+            <div class="slide first">
+                <img src="img/moraes-cn.png" alt="loja-cidade-nova">
+            </div>
+            <div class="slide">
+                <img src="img/moraes-br.png" alt="loja-br-316">
+            </div>
+                <!-- End Slides-->
+            
+                <!-- Auto Navigation -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+            </div>
+               <!-- End Auto Navigation -->
+        </div>
+    
+            <!-- Manual Navigation -->
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+        </div>
+            <!-- End Manual Navigation -->
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
