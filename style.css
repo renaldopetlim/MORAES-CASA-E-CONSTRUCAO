@@ -81,7 +81,17 @@
 
 #location{
     font-family: 'Rubik', sans-serif;
+    width: 30vw;
 }
+    #location h1{
+        font-size: 40px;
+    }
+    #location h3{
+        font-size: 28px;
+    }
+    #location p{
+        font-size: 15px;
+    }
 
 #slider{
     margin: 0 auto;
