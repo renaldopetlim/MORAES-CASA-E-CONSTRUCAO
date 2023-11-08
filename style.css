@@ -176,12 +176,14 @@
     position: relative;
     padding: 15px;
     margin: 0 auto;
-    max-width: 96%;
 }
     .gallery-wrapper{
         overflow-x: auto;
         -ms-overflow-style: none;
         scrollbar-width: none;
+        position: relative;
+        margin: 0 auto;
+        max-width: 95%;
     }
             .gallery-wrapper::-webkit-scrollbar{
                 display: none;
