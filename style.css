@@ -235,10 +235,68 @@
             }
 
 /* QUEM SOMOS */
-
+#sobre{
+    background-color: lightgray;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+    #sobre div{
+        font-family: 'Nunito', sans-serif;
+        margin: 50px;
+        padding-top: 40px;
+    }
+        #sobre div h1{
+            font-size: 45px;
+            text-align: center;
+        }
+        #sobre div p{
+            font-size: 25px;
+            text-align: justify;
+            padding-top: 40px;
+        }
+    .about-photo{
+        margin: 50px 50px 50px 50px;
+    }
 
 /* ORÇAMENTO */
-
+#budget{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+    .sectors{
+        width: 100vw;
+        height: 300px;
+        display: flex;
+        gap: 50px;
+        padding-left: 25px;
+    }
+    .button-budget{
+        width: 60vw;
+        height: 300px;
+    }
+        .button-budget a button{
+            background-color: #25D366;
+            font-family: 'Nunito', sans-serif;
+            color: white;
+            font-weight: bolder;
+            font-size: 30px;
+            width: 380px;
+            height: 110px;
+            border-radius: 10px;
+            margin-top: 75px;
+            cursor: pointer;
+        }
+            .button-budget a button:hover{
+                background-color: #25D366;
+                color: #fff;
+                transform: translateY(-5px);
+                transition: 1s;
+                box-shadow: 0px 15px 20px #c0c0c0;
+            }
 
 /* COPYRIGHT */
 #copyrights{
