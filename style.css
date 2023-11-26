@@ -362,11 +362,44 @@ html{
     #sobre{
         display: block;
     }
+    #sobre div{
+        margin-bottom: 30px;
+        margin-top: 0;
+        padding-top: 25px;
+    }
+        #sobre div h1{
+            font-size: 25px;
+        }
+        #sobre div p{
+            font-size: 18px;
+        }
+        #sobre img{
+            width: 440px;
+            margin-top: 0;
+        }
 /* ORÇAMENTO */
     #budget{
         display: block;
     }
+        .sectors{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+            .sectors img{
+                width: 120px;
+            }
+    .button-budget{
+        padding: 0;
+        width: 100%;
+    }
+        .button-budget a button{
+            margin: 0;
+        }
 /* COPYRIGHT */
-
-    
+    #copyrights p{
+        font-size: 15px;
+        align-content: center;
+    }
 }
