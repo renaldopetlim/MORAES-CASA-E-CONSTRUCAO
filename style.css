@@ -390,7 +390,7 @@ html{
             font-size: 18px;
         }
         #sobre img{
-            width: 440px;
+            width: 78%;
             margin-top: 0;
         }
 /* ORÇAMENTO */
@@ -404,7 +404,7 @@ html{
             padding-right: 25px;
         }
             .sectors img{
-                width: 120px;
+                width: 100px;
             }
     .button-budget{
         padding: 0;
@@ -415,7 +415,7 @@ html{
         }
 /* COPYRIGHT */
     #copyrights p{
-        font-size: 15px;
+        font-size: 14px;
         align-content: center;
     }
 }
