@@ -318,6 +318,17 @@ html{
     #topo{
         display: block;
     }
+        .topic1{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+            .topic1 p{
+                text-align: center;
+            }
+        button{
+            margin: 10px 0 3px 170px;
+        }
 /* LOGO + MENUs */
     .logo{
         margin: 15px 0 15px 0;
