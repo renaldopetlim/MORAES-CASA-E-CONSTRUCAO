@@ -10,7 +10,7 @@
     background-color: lightgrey;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 4px;
 }
@@ -274,6 +274,9 @@
         gap: 50px;
         padding-left: 25px;
     }
+        .sectors img{
+            border-radius: 10px;
+        }
     .button-budget{
         width: 60vw;
         height: 300px;
@@ -302,6 +305,33 @@
 #copyrights{
     background-color: lightgray;
     font-family: 'Rubik', sans-serif;
-    padding: 10px 0 10px 35px;
+    padding: 10px 0 10px 22px;
     font-size: 12px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px){
+/* SEÇÃO INICIAL */
+    #topo{
+        display: block;
+    }
+
+/* LOGO + MENUs */
+
+/* SLIDES e LOCATION */
+    #banners{
+        display: block;
+    }
+/* MARCAS PARCEIRAS */
+
+/* QUEM SOMOS */
+    #sobre{
+        display: block;
+    }
+/* ORÇAMENTO */
+    #budget{
+        display: block;
+    }
+/* COPYRIGHT */
+
 }
