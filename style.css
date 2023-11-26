@@ -356,8 +356,24 @@ html{
             #location h3{
                 padding: 5px;
             }
-/* MARCAS PARCEIRAS */
 
+/* MARCAS PARCEIRAS */
+    #slider{
+        width: 100%;
+        height: 220px;
+    }
+        .slides input{
+            display: none;
+        }
+        .slide img{
+            width: 100%;
+        }
+            .manual-navigation{
+                display: none;
+            }
+            .navigation-auto{
+                display: none;
+            }
 /* QUEM SOMOS */
     #sobre{
         display: block;
