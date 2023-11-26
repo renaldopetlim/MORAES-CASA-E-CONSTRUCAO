@@ -319,6 +319,7 @@ html{
         display: block;
     }
         .topic1{
+            margin-top: 5px;
             width: 100%;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -348,6 +349,13 @@ html{
     #banners{
         display: block;
     }
+        #location{
+            padding: 10px 0 10px 0;
+            width: 100%;
+        }
+            #location h3{
+                padding: 5px;
+            }
 /* MARCAS PARCEIRAS */
 
 /* QUEM SOMOS */
