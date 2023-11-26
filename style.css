@@ -5,6 +5,9 @@
     outline: none;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 /* SEÇÃO INICIAL */
 #topo{
     background-color: lightgrey;
@@ -315,9 +318,21 @@
     #topo{
         display: block;
     }
-
 /* LOGO + MENUs */
-
+    .logo{
+        margin: 15px 0 15px 0;
+    }
+        .logo img{
+            padding-top: 30px;
+            width: 250px;
+        }
+    .menu{
+        margin-top: 0px;
+    }
+        .menu li{
+            display: block;
+            padding: 5px 0 5px 0;
+        }
 /* SLIDES e LOCATION */
     #banners{
         display: block;
@@ -334,4 +349,5 @@
     }
 /* COPYRIGHT */
 
+    
 }
